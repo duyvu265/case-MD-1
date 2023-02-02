@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Va chạm giao thông</title>
+
+
+</head>
+<body>
+
+
+<div  style="position: relative;">
+
+
+    <img id="1" src="chuonchuon-modified.png" height="100" width="100"
+         style="top:500px;left:50px;position: absolute;border-radius: 50%; "/>
+    <img id="2" src="buom-modified.png" height="100" width="100"
+         style="top:300px;left: 50px;position: absolute;border-radius: 50%; "/>
+    <img id="3" src="ong-modified.png" height="100" width="100"
+         style="top:400px;left: 50px;position: absolute;border-radius: 50%; "/>
+    <img id="4" src="kien-modified.png" height="100" width="100"
+         style="top:650px;left: 50px;position:absolute;border-radius: 50%; "/>
+    <img id="5" src="chuonchuon-modified.png" height="100" width="100"
+         style="top:200px;left: 50px;position: absolute;border-radius: 50%; "/>
+    <img id="6" src="buom-modified.png" height="100" width="100"
+         style="top:10px;left: 50px;position: absolute;border-radius: 50%;"/>
+    <img id="7" src="ong-modified.png" height="100" width="100"
+         style="left: 50px;top:100px;  position: absolute;border-radius: 50%;"/>
+    <img src="anh12.png" id="demo" height="100" width="100"
+         style="top: 300px;left: 1260px;position:absolute ;border-radius: 70%; transition:1s"/>
+    <audio autoplay id="nhac" >
+        <source src="Top-15-Ban-Nhac-EDM-Nghe-Hoai-Khong-Chan-Nhac-Dien-Tu-Gay-Nghien-Hay-Nhat-YING-Nhieu-ca-si.mp3"
+                type="audio/mp3">
+    </audio>
+    <video playsinline autoplay muted loop id="video" style="z-index: -1">
+        <source  src="videoneenf.mp4">
+    </video>
+    <b> Điểm số:</b> <h1 id="diem" style=" position: absolute;color: red" ></h1>
+</div>
+<script>
+    alert("Chú ý : đây là bản thiếu kinh phí và vẫn đang trong quá trình thử nghiệm ")
+    let nhac = document.getElementById("nhac");
+    if (nhac.paused) {
+        nhac.play();
+    } else {
+        nhac.play();
+    }
+</script>
+<link rel="stylesheet" href="nen.css">
+<link rel="stylesheet" href="vacham.js">
+<script src="fly.js">
+
+</script>
+</body>
+</html>
